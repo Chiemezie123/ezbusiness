@@ -1,0 +1,52 @@
+/* Container for the layout */
+.container {
+    display: flex;
+    gap: 8px; /* Add an 8px gap between sidebar and content */
+    background:#F3F3F3;
+  }
+  
+  /* Sidebar styles */
+  .menu {
+    width: 220px; /* Fixed width for the sidebar */
+    background:#fff;
+    height: 100vh;
+    position: fixed; /* Fix the sidebar to the viewport */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 1px solid red; /* For debugging */
+  }
+  
+  /* Main content section */
+  .content {
+    flex-grow: 1; /* Allow the content to take up remaining space */
+    margin-left: 228px; /* 220px (sidebar) + 8px (gap) */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid red;
+    overflow: auto; /* Ensure content is scrollable if needed */
+    background:#fff;
+  }
+  
+  /* Additional styles for other elements */
+  .wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .main {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .side {
+    flex: 1;
+  }
