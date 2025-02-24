@@ -40,7 +40,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="flex-1 flex flex-col gap-[20.42]">
+      <section className="flex-1 flex flex-col gap-[20.42px]">
         <div className="flex gap-[14.8px]">
           {userDetails.map((items,index) => (
             <SecondDisplayCard
