@@ -21,7 +21,7 @@ export default function Navbar(prop:ToggleFuncProps) {
           <div>
             <Typography variant="h-lm" font="Inter" fontWeight="bold" className={`${isDarkMode ? 'text-white' : ''}`}>Analytics</Typography>
           </div>
-          <div className="flex w-[198.094px] h-[42.831px] p-[10.669px] justify-center items-center gap-[10.669px] flex-shrink-0">
+          <div className={`flex w-[198.094px] h-[42.831px] p-[10.669px] ${isDarkMode ? 'bg-[#12121E]' : ''} justify-center items-center gap-[10.669px] flex-shrink-0 rounded-[10px]`}>
             <div>
                 <Typography font="Inter" color="blackie-100" variant="p-s" fontWeight="medium" className={`${isDarkMode ? 'text-white' : ''}`}>01.06.2023-31.06.2023</Typography>
             </div>

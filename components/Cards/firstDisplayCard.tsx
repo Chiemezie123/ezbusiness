@@ -6,7 +6,7 @@ import { useTheme } from "@/hooks/themeContext";
 export default function FirstDisplayCard(props: OrderItemProps) {
     const { isDarkMode, toggleTheme } = useTheme();
   return (
-    <div className={`xl:w-[235px] 2xl:w-[254.189px] h-[142.899px] flex-shrink-0 rounded-[10.669px] flex flex-col ${isDarkMode ? 'bg-[#383848]' : 'bg-[#fff]'} pt-[11.91] pb-[14.49px]`}>
+    <div className={`xl:w-[245px] 2xl:w-[254.189px] h-[142.899px] flex-shrink-0 rounded-[10.669px] flex flex-col ${isDarkMode ? 'bg-[#383848]' : 'bg-[#fff]'} pt-[11.91] pb-[14.49px]`}>
       <div className=" w-full pl-[12.33px] pr-[15.03px]">
         <div className="flex items-center p-[10.669px] justify-between">
           <div>
