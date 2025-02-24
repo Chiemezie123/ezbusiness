@@ -7,7 +7,7 @@ import { OrderItems } from "@/contact/data";
 import { UserDetail, userDetails, moreDetails } from "@/contact/data";
 import TitleCard from "@/components/Cards/titleCard";
 import { useTheme } from "@/hooks/themeContext";
-import MonthlyIssuanceChart from "@/components/Chart/barchart";
+import BarChart from "@/components/Chart/barchart";
 import LineChart from "@/components/Chart/linechart";
 import HorizontalChart from "@/components/Chart/horizontalchart";
 
@@ -30,7 +30,7 @@ export default function Page() {
         <div className={`w-full h-[280.335px] ${isDarkMode ? 'bg-[#383848]' :'bg-[#fff]'} rounded-[10.669px]`}>
           <div className="w-full px-[23px] py-[22px]">
           <TitleCard header="Sales dynamics" date={"2023"}/>
-          <MonthlyIssuanceChart/>
+          <BarChart/>
           </div>
         </div>
         <div className={`w-full h-[267.335px] ${isDarkMode ? 'bg-[#383848]' : 'bg-[#fff]'} rounded-[10.669px]`}>

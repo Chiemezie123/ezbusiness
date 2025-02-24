@@ -4,7 +4,7 @@ import { Chart, ChartConfiguration, ChartTypeRegistry } from 'chart.js/auto';
 import { Typography } from "@/components/Typography";
 import { useTheme } from "@/hooks/themeContext";
 
-const MonthlyIssuanceChart = () => {
+const BarChart = () => {
     const chartRef = useRef<Chart | null>(null); 
     const canvasRef = useRef<HTMLCanvasElement | null>(null); 
     const { isDarkMode} = useTheme();
@@ -135,4 +135,4 @@ const MonthlyIssuanceChart = () => {
     );
 };
 
-export default MonthlyIssuanceChart;
+export default BarChart;
