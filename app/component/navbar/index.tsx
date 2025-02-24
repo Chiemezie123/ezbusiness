@@ -16,12 +16,12 @@ export default function Navbar(prop:ToggleFuncProps) {
  
   return (
     <div className="w-full bg-[##F3F3F3] h-[102.497px] flex gap-[7.52px]">
-      <div className={`2xl:w-[483.72px] ${isDarkMode ? 'bg-[#383848]' : 'bg-[#FFF]'} flex items-center xl:px-[16px] 2xl:px-[33px]`}>
+      <div className={`xl:w-[450px] 2xl:w-[483.72px] ${isDarkMode ? 'bg-[#383848]' : 'bg-[#FFF]'} flex items-center xl:px-[16px] 2xl:px-[33px]`}>
         <div className=" w-full flex items-center justify-between">
           <div>
             <Typography variant="h-lm" font="Inter" fontWeight="bold" className={`${isDarkMode ? 'text-white' : ''}`}>Analytics</Typography>
           </div>
-          <div className={`flex w-[198.094px] h-[42.831px] p-[10.669px] ${isDarkMode ? 'bg-[#12121E]' : ''} justify-center items-center gap-[10.669px] flex-shrink-0 rounded-[10px]`}>
+          <div className={`flex w-[198.094px] h-[42.831px] ${isDarkMode ? 'bg-[#12121E]' : ''} justify-center items-center gap-[10.669px] flex-shrink-0 rounded-[10px]`}>
             <div>
                 <Typography font="Inter" color="blackie-100" variant="p-s" fontWeight="medium" className={`${isDarkMode ? 'text-white' : ''}`}>01.06.2023-31.06.2023</Typography>
             </div>
